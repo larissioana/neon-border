@@ -72,10 +72,10 @@ body
 {
     content: '';
     position: absolute;
-    top: -20px;
-    left: -20px;
-    right: -20px;
-    bottom: -20px;
+    top: -70px;
+    left: -70px;
+    right: -70px;
+    bottom: -70px;
     background: linear-gradient(to right, #B6FFFA, #687EFF, #7E30E1, #80B3FF, #49108B, #98E4FF, #E26EE5, #F3F8FF); 
     border-radius: 40px; 
     z-index: -1;
