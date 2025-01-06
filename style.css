@@ -39,11 +39,11 @@ body
     inset: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 1);
     border-radius:20px;
     filter:hue-rotate(0deg);
     background-image: url('./neon.jpg');
     background-size: cover;
+    mix-blend-mode: screen;
 }
 
 .img-overlay 
@@ -52,7 +52,7 @@ body
     inset: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,.8);
+    background: rgba(0, 0, 0, 0.8);
     border-radius: 20px;
     backdrop-filter: blur(5px);
     animation: blurAnimation 4s infinite ease-in-out; 
@@ -64,7 +64,7 @@ body
       backdrop-filter: blur(0px); 
     }
     50% {
-      backdrop-filter: blur(5px); 
+      backdrop-filter: blur(8px); 
     }
 }
 
@@ -76,7 +76,7 @@ body
     left: -20px;
     right: -20px;
     bottom: -20px;
-    background: linear-gradient(to right, rgb(227, 78, 197), orange, yellow, rgb(103, 218, 103), rgb(95, 95, 227), rgb(156, 66, 220), violet, rgb(214, 85, 85)); /* Start with rainbow gradient */
+    background: linear-gradient(to right, #B6FFFA, #687EFF, #7E30E1, #80B3FF, #49108B, #98E4FF, #E26EE5, #F3F8FF); 
     border-radius: 40px; 
     z-index: -1;
     animation: moveAround 4s linear infinite; 
